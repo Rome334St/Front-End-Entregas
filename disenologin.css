@@ -1,0 +1,113 @@
+header{
+    background-color: #001f3f;
+}
+.navbar-brand img{
+    border-radius: 50%;
+    border:2px solid white ;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+  .navbar-nav .nav-link:hover {
+    color: #FFDD57 !important; 
+}
+
+body{
+    background-color:#f5efe3 ;
+}
+.LogInForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 15px;
+    min-height: 80vh;
+}
+
+.LogInForm .container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.LogInForm h2 {
+    text-align: center;
+    color: #001f3f;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.LogInForm .form-label {
+    color: #001f3f;
+    font-weight: 500;
+}
+
+.LogInForm .form-control {
+    border: 1px solid #001f3f;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.LogInForm .btn-primary {
+    background-color: #FFDD57;
+    color: #001f3f;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.LogInForm .btn-primary:hover {
+    background-color: #001f3f;
+    color: white;
+}
+
+.LogInForm p {
+    text-align: center;
+    margin-top: 20px;
+    color: #001f3f;
+}
+
+.LogInForm p a {
+    color: #FFDD57;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.LogInForm p a:hover {
+    text-decoration: underline;
+    color: #001f3f;
+}
+
+
+
+
+  .footer{
+    background-color: #001f3f;
+    padding: 30px 20px;
+    color: white;
+}
+.footer p{
+    margin: 0;
+    color: #f5efe3;
+}
+.footer .redes{
+    margin-top: 15px;
+}
+.footer .redes a{
+    color: #FFDD57; 
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.footer .redes a:hover {
+    color: white;
+}
