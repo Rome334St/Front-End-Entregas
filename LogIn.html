@@ -18,7 +18,7 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
-    
+
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
@@ -32,23 +32,26 @@
                           <a class="nav-link" href="Servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="miPerfil.html">Contacto</a>
+                          <a class="nav-link" href="Contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="LogIn.html">Iniciar Sesion</a>
                         </li>
+                        <li>
+                            <a class="nav-link" href="miPerfil.html"> Mi Perfil</a>
+                        </li>
                     </ul>
-    
+
                 </div>
-                
+
             </div>
-    
+
         </nav>
     </header>
     <section class="LogInForm">
         <div class="container">
             <h2>Iniciar Sesion</h2>
-        <form action="#">
+        <form id="formLogin">
             <div class="mb-3">
                 <label for="Email" class="form-label">Correo Electronico</label>
                 <input type="email" class="form-control" id="Email" name="email" required>
@@ -58,12 +61,12 @@
                 <input type="password" class="form-control" id="LogContraseña" name="password" required>
             </div>
             <button type="submit" class="btn btn-primary">Acceder</button>
-            
+
         </form>
         <p>No eres parte de la comunidad ?<br><a href="Registro.html">Registrate</a></p>
-        
+
         </div>
-        
+
     </section>
     <footer class="footer">
         <div class="container text-center">
@@ -75,9 +78,11 @@
             </div>
             <p class="mt-4 small">&copy; 2025 Sol Mayor. Todos los derechos reservados.</p>
           </div>
-        
+
     </footer>
 
-    
+    <script src="header.js"></script>
+    <script src="login.js"></script>
+
 </body>
 </html>

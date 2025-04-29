@@ -1,0 +1,41 @@
+body {
+    background-color: #f5efe3;
+  }
+  
+  .navbar {
+    background-color: #001f3f;
+  }
+  
+  .nav-link {
+    color: #f5efe3 !important;
+  }
+  
+  .nav-link:hover {
+    color: #FFDD57 !important;
+  }
+  
+  .perfil-section {
+    padding: 50px 0;
+  }
+  
+  .perfil-card {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .footer {
+    background-color: #001f3f;
+    color: #f5efe3;
+    padding: 20px 0;
+  }
+  
+  .redes a {
+    color: #FFDD57;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .redes a:hover {
+    text-decoration: underline;
+  }
+  
